@@ -51,6 +51,7 @@ for path in $(find "${bundles}" -type f -newerct "$minmt" -name "*.ab"); do
 
     echo $path
     ArknightsStudioCLI/ArknightsStudioCLI "${path}" -g containerFull -t "${types:1}" -o "$tmpdir" 1>/dev/null
+    rm $path
 done
 
 
