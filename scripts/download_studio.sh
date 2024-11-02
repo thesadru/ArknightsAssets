@@ -10,4 +10,4 @@ savepath="${1:-"./ArknightsStudioCLI"}"
 # unzip -q -o "/tmp/ArknightsStudioCLI.zip" -d "$savepath"
 chmod +x "$savepath/ArknightsStudioCLI"
 
-apt-get install -qq -y dotnet-sdk-6.0
+apt-get install -qq -y dotnet-sdk-6.0 dotnet-sdk-7.0 dotnet-sdk-8.0
