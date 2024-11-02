@@ -23,8 +23,7 @@ jobs:
         uses: jlumbroso/free-disk-space@main
         with:
           dotnet: false
-      - name: Show space
-        run: df . -h
+          large-packages: false
       - name: Set env
         run: |
             echo "SERVER=${GITHUB_REF##*/}" >> $GITHUB_ENV
