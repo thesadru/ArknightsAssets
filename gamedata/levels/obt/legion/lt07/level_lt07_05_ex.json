@@ -4,13 +4,13 @@
         "maxLifePoint": 3,
         "initialCost": 20,
         "maxCost": 99,
-        "costIncreaseTime": 1,
+        "costIncreaseTime": 1.0,
         "moveMultiplier": 0.5,
         "steeringEnabled": true,
         "isTrainingLevel": false,
         "isHardTrainingLevel": false,
         "isPredefinedCardsSelectable": false,
-        "maxPlayTime": -1,
+        "maxPlayTime": -1.0,
         "functionDisableMask": "NONE"
     },
     "bgmEvent": "patriot",
@@ -647,12 +647,12 @@
             "blackboard": [
                 {
                     "key": "danger_level_step_limit",
-                    "value": 0,
+                    "value": 0.0,
                     "valueStr": "10|15|20"
                 },
                 {
                     "key": "init_stack_cnt",
-                    "value": 6
+                    "value": 6.0
                 }
             ],
             "passProfessionMaskFlag": false,
@@ -682,55 +682,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
                 "x": 0.2,
-                "y": 0
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 60,
+                    "time": 60.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -749,55 +749,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
                 "x": 0.2,
-                "y": 0
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 59,
+                    "time": 59.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -816,41 +816,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -869,41 +869,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -922,69 +922,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 3,
+                    "time": 3.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1003,69 +1003,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 4,
+                    "time": 4.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1084,41 +1084,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1137,41 +1137,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1190,41 +1190,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 20,
+                    "time": 20.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1243,41 +1243,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1296,55 +1296,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1363,55 +1363,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1430,41 +1430,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 15,
+                    "time": 15.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1483,69 +1483,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 35,
+                    "time": 35.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1564,69 +1564,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 35,
+                    "time": 35.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1645,41 +1645,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1698,41 +1698,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1751,55 +1751,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1818,55 +1818,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1885,41 +1885,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 90,
+                    "time": 90.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1938,69 +1938,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 30,
+                    "time": 30.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2019,69 +2019,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 30,
+                    "time": 30.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2100,55 +2100,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2167,55 +2167,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2234,55 +2234,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2301,55 +2301,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2368,41 +2368,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2421,41 +2421,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 50,
+                    "time": 50.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2474,69 +2474,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 15,
+                    "time": 15.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2555,69 +2555,69 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_FOR_SECONDS",
-                    "time": 15,
+                    "time": 15.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2636,41 +2636,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2689,41 +2689,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2742,55 +2742,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2809,55 +2809,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2876,41 +2876,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2929,41 +2929,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -2982,41 +2982,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3035,55 +3035,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3102,55 +3102,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3169,55 +3169,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3236,55 +3236,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3303,55 +3303,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3370,55 +3370,55 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 2
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 5
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3437,27 +3437,27 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3476,41 +3476,41 @@
                 "col": 10
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 3,
                         "col": 7
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -3551,7 +3551,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -3563,15 +3563,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -3579,11 +3579,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -3603,19 +3603,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -3667,7 +3667,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -3675,7 +3675,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -3712,7 +3712,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -3724,15 +3724,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -3740,11 +3740,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -3764,19 +3764,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -3828,7 +3828,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -3836,7 +3836,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -3873,7 +3873,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -3885,15 +3885,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -3901,11 +3901,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -3925,19 +3925,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -3989,7 +3989,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -3997,7 +3997,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4034,7 +4034,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4046,15 +4046,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4062,11 +4062,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4086,19 +4086,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4150,7 +4150,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4158,7 +4158,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4195,7 +4195,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4207,15 +4207,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4223,11 +4223,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4247,19 +4247,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4311,7 +4311,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4319,7 +4319,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4356,7 +4356,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4368,15 +4368,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4384,11 +4384,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4408,19 +4408,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4472,7 +4472,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4480,7 +4480,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4517,7 +4517,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4529,15 +4529,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4545,11 +4545,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4569,19 +4569,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4633,7 +4633,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4641,7 +4641,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4678,7 +4678,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4690,15 +4690,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4706,11 +4706,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4730,19 +4730,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4794,7 +4794,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4802,7 +4802,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -4839,7 +4839,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -4851,15 +4851,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -4867,11 +4867,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -4891,19 +4891,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -4955,7 +4955,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -4963,7 +4963,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -5000,7 +5000,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -5012,15 +5012,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -5028,11 +5028,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -5052,19 +5052,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -5116,7 +5116,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -5124,7 +5124,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -5161,7 +5161,7 @@
                     },
                     "magicResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "cost": {
                         "m_defined": false,
@@ -5173,15 +5173,15 @@
                     },
                     "moveSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "attackSpeed": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "baseAttackTime": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "respawnTime": {
                         "m_defined": false,
@@ -5189,11 +5189,11 @@
                     },
                     "hpRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "spRecoveryPerSec": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "maxDeployCount": {
                         "m_defined": false,
@@ -5213,19 +5213,19 @@
                     },
                     "epDamageResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "epResistance": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitratePhysical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "damageHitrateMagical": {
                         "m_defined": false,
-                        "m_value": 0
+                        "m_value": 0.0
                     },
                     "stunImmune": {
                         "m_defined": false,
@@ -5277,7 +5277,7 @@
                 },
                 "rangeRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "numOfExtraDrops": {
                     "m_defined": true,
@@ -5285,7 +5285,7 @@
                 },
                 "viewRadius": {
                     "m_defined": false,
-                    "m_value": 0
+                    "m_value": 0.0
                 },
                 "notCountInTotal": {
                     "m_defined": false,
@@ -5296,20 +5296,20 @@
     ],
     "waves": [
         {
-            "preDelay": 0,
-            "postDelay": 15,
-            "maxTimeWaitingForNextWave": -1,
+            "preDelay": 0.0,
+            "postDelay": 15.0,
+            "maxTimeWaitingForNextWave": -1.0,
             "fragments": [
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1174_duholy",
                             "count": 1,
-                            "preDelay": 0,
-                            "interval": 1,
+                            "preDelay": 0.0,
+                            "interval": 1.0,
                             "routeIndex": 0,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5326,8 +5326,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1175_dushdo",
                             "count": 1,
-                            "preDelay": 0,
-                            "interval": 1,
+                            "preDelay": 0.0,
+                            "interval": 1.0,
                             "routeIndex": 1,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5342,15 +5342,15 @@
                     ]
                 },
                 {
-                    "preDelay": 3,
+                    "preDelay": 3.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1137_plasm",
                             "count": 3,
-                            "preDelay": 3,
-                            "interval": 3,
+                            "preDelay": 3.0,
+                            "interval": 3.0,
                             "routeIndex": 2,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5365,15 +5365,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1137_plasm",
                             "count": 3,
-                            "preDelay": 6,
-                            "interval": 6,
+                            "preDelay": 6.0,
+                            "interval": 6.0,
                             "routeIndex": 3,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5388,15 +5388,15 @@
                     ]
                 },
                 {
-                    "preDelay": 3,
+                    "preDelay": 3.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 3,
-                            "preDelay": 3,
-                            "interval": 15,
+                            "preDelay": 3.0,
+                            "interval": 15.0,
                             "routeIndex": 4,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5413,8 +5413,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 3,
-                            "preDelay": 4,
-                            "interval": 15,
+                            "preDelay": 4.0,
+                            "interval": 15.0,
                             "routeIndex": 5,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5431,8 +5431,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1137_plasm",
                             "count": 3,
-                            "preDelay": 10,
-                            "interval": 8,
+                            "preDelay": 10.0,
+                            "interval": 8.0,
                             "routeIndex": 6,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5450,7 +5450,7 @@
                             "key": "enemy_1137_plasm",
                             "count": 3,
                             "preDelay": 10.5,
-                            "interval": 8,
+                            "interval": 8.0,
                             "routeIndex": 7,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5465,15 +5465,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1058_traink",
                             "count": 1,
-                            "preDelay": 3,
-                            "interval": 1,
+                            "preDelay": 3.0,
+                            "interval": 1.0,
                             "routeIndex": 8,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5490,8 +5490,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 9,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5506,15 +5506,15 @@
                     ]
                 },
                 {
-                    "preDelay": 3,
+                    "preDelay": 3.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 10,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5531,8 +5531,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 1,
-                            "preDelay": 6,
-                            "interval": 1,
+                            "preDelay": 6.0,
+                            "interval": 1.0,
                             "routeIndex": 11,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5549,20 +5549,20 @@
             ]
         },
         {
-            "preDelay": 0,
-            "postDelay": 15,
-            "maxTimeWaitingForNextWave": -1,
+            "preDelay": 0.0,
+            "postDelay": 15.0,
+            "maxTimeWaitingForNextWave": -1.0,
             "fragments": [
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1058_traink",
                             "count": 1,
-                            "preDelay": 4,
-                            "interval": 1,
+                            "preDelay": 4.0,
+                            "interval": 1.0,
                             "routeIndex": 12,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5579,8 +5579,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1174_duholy",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 13,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5597,8 +5597,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1175_dushdo",
                             "count": 1,
-                            "preDelay": 3,
-                            "interval": 1,
+                            "preDelay": 3.0,
+                            "interval": 1.0,
                             "routeIndex": 14,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5613,15 +5613,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 3,
-                            "interval": 20,
+                            "preDelay": 3.0,
+                            "interval": 20.0,
                             "routeIndex": 15,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5638,8 +5638,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 4,
-                            "interval": 20,
+                            "preDelay": 4.0,
+                            "interval": 20.0,
                             "routeIndex": 16,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5656,8 +5656,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 3,
-                            "preDelay": 18,
-                            "interval": 12,
+                            "preDelay": 18.0,
+                            "interval": 12.0,
                             "routeIndex": 17,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5674,8 +5674,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 3,
-                            "preDelay": 19,
-                            "interval": 12,
+                            "preDelay": 19.0,
+                            "interval": 12.0,
                             "routeIndex": 18,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5692,8 +5692,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1058_traink",
                             "count": 1,
-                            "preDelay": 20,
-                            "interval": 1,
+                            "preDelay": 20.0,
+                            "interval": 1.0,
                             "routeIndex": 19,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5710,8 +5710,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1174_duholy",
                             "count": 1,
-                            "preDelay": 49,
-                            "interval": 1,
+                            "preDelay": 49.0,
+                            "interval": 1.0,
                             "routeIndex": 20,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5728,8 +5728,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1175_dushdo",
                             "count": 1,
-                            "preDelay": 48,
-                            "interval": 1,
+                            "preDelay": 48.0,
+                            "interval": 1.0,
                             "routeIndex": 21,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5744,15 +5744,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 4,
-                            "preDelay": 3,
-                            "interval": 10,
+                            "preDelay": 3.0,
+                            "interval": 10.0,
                             "routeIndex": 22,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5769,8 +5769,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 4,
-                            "preDelay": 4,
-                            "interval": 10,
+                            "preDelay": 4.0,
+                            "interval": 10.0,
                             "routeIndex": 23,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5787,8 +5787,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 4,
-                            "preDelay": 5,
-                            "interval": 10,
+                            "preDelay": 5.0,
+                            "interval": 10.0,
                             "routeIndex": 24,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5805,8 +5805,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr",
                             "count": 4,
-                            "preDelay": 6,
-                            "interval": 10,
+                            "preDelay": 6.0,
+                            "interval": 10.0,
                             "routeIndex": 25,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -5823,8 +5823,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1133_harchn",
                             "count": 1,
-                            "preDelay": 20,
-                            "interval": 1,
+                            "preDelay": 20.0,
+                            "interval": 1.0,
                             "routeIndex": 26,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5841,20 +5841,20 @@
             ]
         },
         {
-            "preDelay": 0,
-            "postDelay": -1,
-            "maxTimeWaitingForNextWave": -1,
+            "preDelay": 0.0,
+            "postDelay": -1.0,
+            "maxTimeWaitingForNextWave": -1.0,
             "fragments": [
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1058_traink_2",
                             "count": 1,
-                            "preDelay": 4,
-                            "interval": 1,
+                            "preDelay": 4.0,
+                            "interval": 1.0,
                             "routeIndex": 27,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5871,8 +5871,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1174_duholy_2",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 28,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5889,8 +5889,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1175_dushdo_2",
                             "count": 1,
-                            "preDelay": 3,
-                            "interval": 1,
+                            "preDelay": 3.0,
+                            "interval": 1.0,
                             "routeIndex": 29,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5905,15 +5905,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 3,
-                            "interval": 15,
+                            "preDelay": 3.0,
+                            "interval": 15.0,
                             "routeIndex": 30,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5930,8 +5930,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 4,
-                            "interval": 15,
+                            "preDelay": 4.0,
+                            "interval": 15.0,
                             "routeIndex": 31,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5948,8 +5948,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 3,
-                            "preDelay": 18,
-                            "interval": 10,
+                            "preDelay": 18.0,
+                            "interval": 10.0,
                             "routeIndex": 32,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5966,8 +5966,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 3,
-                            "preDelay": 19,
-                            "interval": 10,
+                            "preDelay": 19.0,
+                            "interval": 10.0,
                             "routeIndex": 33,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -5984,8 +5984,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1133_harchn",
                             "count": 1,
-                            "preDelay": 40,
-                            "interval": 1,
+                            "preDelay": 40.0,
+                            "interval": 1.0,
                             "routeIndex": 34,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -6000,15 +6000,15 @@
                     ]
                 },
                 {
-                    "preDelay": 3,
+                    "preDelay": 3.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 3,
-                            "interval": 15,
+                            "preDelay": 3.0,
+                            "interval": 15.0,
                             "routeIndex": 35,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -6025,8 +6025,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1132_sarchn",
                             "count": 3,
-                            "preDelay": 4,
-                            "interval": 15,
+                            "preDelay": 4.0,
+                            "interval": 15.0,
                             "routeIndex": 36,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -6043,8 +6043,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 4,
-                            "preDelay": 3,
-                            "interval": 12,
+                            "preDelay": 3.0,
+                            "interval": 12.0,
                             "routeIndex": 37,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -6061,8 +6061,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 4,
-                            "preDelay": 4,
-                            "interval": 12,
+                            "preDelay": 4.0,
+                            "interval": 12.0,
                             "routeIndex": 38,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -6079,8 +6079,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 4,
-                            "preDelay": 5,
-                            "interval": 12,
+                            "preDelay": 5.0,
+                            "interval": 12.0,
                             "routeIndex": 39,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -6097,8 +6097,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1166_dusbr_2",
                             "count": 4,
-                            "preDelay": 6,
-                            "interval": 12,
+                            "preDelay": 6.0,
+                            "interval": 12.0,
                             "routeIndex": 40,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -6115,8 +6115,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1174_duholy_2",
                             "count": 1,
-                            "preDelay": 36,
-                            "interval": 1,
+                            "preDelay": 36.0,
+                            "interval": 1.0,
                             "routeIndex": 41,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -6133,8 +6133,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1175_dushdo_2",
                             "count": 1,
-                            "preDelay": 36,
-                            "interval": 1,
+                            "preDelay": 36.0,
+                            "interval": 1.0,
                             "routeIndex": 42,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -6151,8 +6151,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1058_traink_2",
                             "count": 1,
-                            "preDelay": 36,
-                            "interval": 1,
+                            "preDelay": 36.0,
+                            "interval": 1.0,
                             "routeIndex": 43,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -6169,8 +6169,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1133_harchn",
                             "count": 1,
-                            "preDelay": 40,
-                            "interval": 1,
+                            "preDelay": 40.0,
+                            "interval": 1.0,
                             "routeIndex": 44,
                             "blockFragment": false,
                             "autoPreviewRoute": false,

@@ -4,13 +4,13 @@
         "maxLifePoint": 8,
         "initialCost": 10,
         "maxCost": 99,
-        "costIncreaseTime": 1,
+        "costIncreaseTime": 1.0,
         "moveMultiplier": 0.5,
         "steeringEnabled": true,
         "isTrainingLevel": false,
         "isHardTrainingLevel": false,
         "isPredefinedCardsSelectable": false,
-        "maxPlayTime": -1,
+        "maxPlayTime": -1.0,
         "functionDisableMask": "NONE"
     },
     "bgmEvent": "calamity",
@@ -594,7 +594,7 @@
             "blackboard": [
                 {
                     "key": "value",
-                    "value": 1
+                    "value": 1.0
                 }
             ]
         },
@@ -626,7 +626,7 @@
             "blackboard": [
                 {
                     "key": "value",
-                    "value": -4
+                    "value": -4.0
                 }
             ]
         }
@@ -644,12 +644,12 @@
                 "col": 0
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "allowDiagonalMove": true,
             "visitEveryTileCenter": false,
@@ -667,12 +667,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -691,36 +691,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 5,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0.2,
-                "y": 0.2
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -743,8 +719,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -767,8 +743,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -791,8 +767,32 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 5,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.2,
+                "y": 0.2
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -811,36 +811,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0.2,
-                "y": 0.2
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -863,8 +839,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -887,8 +863,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -911,8 +887,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -935,8 +911,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -959,104 +935,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 5,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 5,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 5,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1079,128 +959,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
-            },
-            "checkpoints": [],
-            "allowDiagonalMove": true,
-            "visitEveryTileCenter": false,
-            "visitEveryNodeCenter": false,
-            "visitEveryCheckPoint": false
-        },
-        {
-            "motionMode": "WALK",
-            "startPosition": {
-                "row": 1,
-                "col": 0
-            },
-            "endPosition": {
-                "row": 3,
-                "col": 4
-            },
-            "spawnRandomRange": {
-                "x": 0,
-                "y": 0
-            },
-            "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1219,12 +979,252 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 5,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 5,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.2,
+                "y": 0.2
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 1,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "checkpoints": [],
+            "allowDiagonalMove": true,
+            "visitEveryTileCenter": false,
+            "visitEveryNodeCenter": false,
+            "visitEveryCheckPoint": false
+        },
+        {
+            "motionMode": "WALK",
+            "startPosition": {
+                "row": 5,
+                "col": 0
+            },
+            "endPosition": {
+                "row": 3,
+                "col": 4
+            },
+            "spawnRandomRange": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "spawnOffset": {
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1247,8 +1247,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1271,8 +1271,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1295,8 +1295,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1319,8 +1319,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1343,8 +1343,8 @@
                 "y": 0.2
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1363,41 +1363,41 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 5,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_CURRENT_FRAGMENT_TIME",
-                    "time": 30,
+                    "time": 30.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1416,12 +1416,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1440,12 +1440,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1464,12 +1464,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1488,12 +1488,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1512,41 +1512,41 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [
                 {
                     "type": "MOVE",
-                    "time": 0,
+                    "time": 0.0,
                     "position": {
                         "row": 1,
                         "col": 1
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 },
                 {
                     "type": "WAIT_CURRENT_FRAGMENT_TIME",
-                    "time": 30,
+                    "time": 30.0,
                     "position": {
                         "row": 0,
                         "col": 0
                     },
                     "reachOffset": {
-                        "x": 0,
-                        "y": 0
+                        "x": 0.0,
+                        "y": 0.0
                     },
                     "randomizeReachOffset": false,
-                    "reachDistance": 0
+                    "reachDistance": 0.0
                 }
             ],
             "allowDiagonalMove": true,
@@ -1565,12 +1565,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1589,12 +1589,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1613,12 +1613,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1637,12 +1637,12 @@
                 "col": 4
             },
             "spawnRandomRange": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "spawnOffset": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             },
             "checkpoints": [],
             "allowDiagonalMove": true,
@@ -1672,20 +1672,20 @@
     ],
     "waves": [
         {
-            "preDelay": 0,
-            "postDelay": 0,
-            "maxTimeWaitingForNextWave": -1,
+            "preDelay": 0.0,
+            "postDelay": 0.0,
+            "maxTimeWaitingForNextWave": -1.0,
             "fragments": [
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "STORY",
                             "managedByScheduler": true,
                             "key": "obt/tutorial/level/main_01-06",
                             "count": 1,
-                            "preDelay": 0,
-                            "interval": 1,
+                            "preDelay": 0.0,
+                            "interval": 1.0,
                             "routeIndex": 0,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1700,15 +1700,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "PREVIEW_CURSOR",
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 1,
-                            "preDelay": 1,
-                            "interval": 1,
+                            "preDelay": 1.0,
+                            "interval": 1.0,
                             "routeIndex": 1,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -1725,8 +1725,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 2,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1743,7 +1743,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 13,
+                            "preDelay": 13.0,
                             "interval": 0.7,
                             "routeIndex": 3,
                             "blockFragment": false,
@@ -1761,7 +1761,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 18,
+                            "preDelay": 18.0,
                             "interval": 0.7,
                             "routeIndex": 4,
                             "blockFragment": false,
@@ -1779,7 +1779,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 23,
+                            "preDelay": 23.0,
                             "interval": 0.7,
                             "routeIndex": 5,
                             "blockFragment": false,
@@ -1797,7 +1797,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 28,
+                            "preDelay": 28.0,
                             "interval": 0.7,
                             "routeIndex": 6,
                             "blockFragment": false,
@@ -1813,15 +1813,15 @@
                     ]
                 },
                 {
-                    "preDelay": 10,
+                    "preDelay": 10.0,
                     "actions": [
                         {
                             "actionType": "PREVIEW_CURSOR",
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 1,
-                            "preDelay": 1,
-                            "interval": 1,
+                            "preDelay": 1.0,
+                            "interval": 1.0,
                             "routeIndex": 7,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -1838,8 +1838,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 8,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1856,7 +1856,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 9,
+                            "preDelay": 9.0,
                             "interval": 0.7,
                             "routeIndex": 9,
                             "blockFragment": false,
@@ -1874,7 +1874,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 14,
+                            "preDelay": 14.0,
                             "interval": 0.7,
                             "routeIndex": 10,
                             "blockFragment": false,
@@ -1892,8 +1892,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 19,
-                            "interval": 9,
+                            "preDelay": 19.0,
+                            "interval": 9.0,
                             "routeIndex": 11,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1910,8 +1910,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 3,
-                            "preDelay": 27,
-                            "interval": 9,
+                            "preDelay": 27.0,
+                            "interval": 9.0,
                             "routeIndex": 12,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1928,8 +1928,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 4,
-                            "preDelay": 28,
-                            "interval": 7,
+                            "preDelay": 28.0,
+                            "interval": 7.0,
                             "routeIndex": 13,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1946,8 +1946,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 20,
-                            "interval": 9,
+                            "preDelay": 20.0,
+                            "interval": 9.0,
                             "routeIndex": 14,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -1964,8 +1964,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 22,
-                            "interval": 8,
+                            "preDelay": 22.0,
+                            "interval": 8.0,
                             "routeIndex": 15,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1982,8 +1982,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 3,
-                            "preDelay": 23,
-                            "interval": 8,
+                            "preDelay": 23.0,
+                            "interval": 8.0,
                             "routeIndex": 16,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -1998,15 +1998,15 @@
                     ]
                 },
                 {
-                    "preDelay": 10,
+                    "preDelay": 10.0,
                     "actions": [
                         {
                             "actionType": "PREVIEW_CURSOR",
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 1,
-                            "preDelay": 1,
-                            "interval": 1,
+                            "preDelay": 1.0,
+                            "interval": 1.0,
                             "routeIndex": 17,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -2023,8 +2023,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 18,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2041,7 +2041,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 9,
+                            "preDelay": 9.0,
                             "interval": 0.7,
                             "routeIndex": 19,
                             "blockFragment": false,
@@ -2059,7 +2059,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 1,
-                            "preDelay": 14,
+                            "preDelay": 14.0,
                             "interval": 0.7,
                             "routeIndex": 20,
                             "blockFragment": false,
@@ -2077,8 +2077,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 19,
-                            "interval": 9,
+                            "preDelay": 19.0,
+                            "interval": 9.0,
                             "routeIndex": 21,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2095,8 +2095,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 3,
-                            "preDelay": 27,
-                            "interval": 9,
+                            "preDelay": 27.0,
+                            "interval": 9.0,
                             "routeIndex": 22,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2113,8 +2113,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 4,
-                            "preDelay": 29,
-                            "interval": 7,
+                            "preDelay": 29.0,
+                            "interval": 7.0,
                             "routeIndex": 23,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2131,8 +2131,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 1,
-                            "interval": 9,
+                            "preDelay": 1.0,
+                            "interval": 9.0,
                             "routeIndex": 24,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -2149,8 +2149,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 5,
-                            "interval": 9,
+                            "preDelay": 5.0,
+                            "interval": 9.0,
                             "routeIndex": 25,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2167,8 +2167,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 6,
-                            "interval": 8,
+                            "preDelay": 6.0,
+                            "interval": 8.0,
                             "routeIndex": 26,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2185,8 +2185,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 4,
-                            "preDelay": 8,
-                            "interval": 8,
+                            "preDelay": 8.0,
+                            "interval": 8.0,
                             "routeIndex": 27,
                             "blockFragment": false,
                             "autoPreviewRoute": false,
@@ -2203,7 +2203,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 22,
+                            "preDelay": 22.0,
                             "interval": 0.7,
                             "routeIndex": 28,
                             "blockFragment": false,
@@ -2221,7 +2221,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 3,
-                            "preDelay": 27,
+                            "preDelay": 27.0,
                             "interval": 0.7,
                             "routeIndex": 29,
                             "blockFragment": false,
@@ -2237,15 +2237,15 @@
                     ]
                 },
                 {
-                    "preDelay": 0,
+                    "preDelay": 0.0,
                     "actions": [
                         {
                             "actionType": "SPAWN",
                             "managedByScheduler": true,
                             "key": "enemy_1030_wteeth",
                             "count": 1,
-                            "preDelay": 3,
-                            "interval": 1,
+                            "preDelay": 3.0,
+                            "interval": 1.0,
                             "routeIndex": 30,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -2262,7 +2262,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 1,
-                            "preDelay": 6,
+                            "preDelay": 6.0,
                             "interval": 1.3,
                             "routeIndex": 31,
                             "blockFragment": false,
@@ -2280,7 +2280,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 1,
-                            "preDelay": 10,
+                            "preDelay": 10.0,
                             "interval": 1.3,
                             "routeIndex": 32,
                             "blockFragment": false,
@@ -2298,7 +2298,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 2,
-                            "preDelay": 18,
+                            "preDelay": 18.0,
                             "interval": 1.3,
                             "routeIndex": 33,
                             "blockFragment": false,
@@ -2316,7 +2316,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1027_mob",
                             "count": 2,
-                            "preDelay": 25,
+                            "preDelay": 25.0,
                             "interval": 1.3,
                             "routeIndex": 34,
                             "blockFragment": false,
@@ -2334,8 +2334,8 @@
                             "managedByScheduler": true,
                             "key": "enemy_1030_wteeth",
                             "count": 1,
-                            "preDelay": 5,
-                            "interval": 1,
+                            "preDelay": 5.0,
+                            "interval": 1.0,
                             "routeIndex": 35,
                             "blockFragment": false,
                             "autoPreviewRoute": true,
@@ -2352,7 +2352,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 8,
+                            "preDelay": 8.0,
                             "interval": 0.7,
                             "routeIndex": 36,
                             "blockFragment": false,
@@ -2370,7 +2370,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 13,
+                            "preDelay": 13.0,
                             "interval": 0.7,
                             "routeIndex": 37,
                             "blockFragment": false,
@@ -2388,7 +2388,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 18,
+                            "preDelay": 18.0,
                             "interval": 0.7,
                             "routeIndex": 38,
                             "blockFragment": false,
@@ -2406,7 +2406,7 @@
                             "managedByScheduler": true,
                             "key": "enemy_1007_slime_2",
                             "count": 2,
-                            "preDelay": 22,
+                            "preDelay": 22.0,
                             "interval": 0.7,
                             "routeIndex": 39,
                             "blockFragment": false,

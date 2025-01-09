@@ -2,7 +2,7 @@
     "runes": [
         {
             "id": "tree_branch_1_1",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "近战干员受到的治疗效果+50%",
             "runes": [
@@ -19,7 +19,7 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "heal_scale"
                         },
                         {
@@ -33,7 +33,7 @@
         },
         {
             "id": "tree_branch_1_2",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "远程干员最大生命值+50%，防御力+200",
             "runes": [
@@ -68,7 +68,7 @@
                     "blackboard": [
                         {
                             "key": "def",
-                            "value": 200,
+                            "value": 200.0,
                             "valueStr": null
                         }
                     ]
@@ -77,7 +77,7 @@
         },
         {
             "id": "tree_branch_2_1",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "解锁圣徒之手·清理模式：圣徒之手会清洗沿路的溟痕",
             "runes": [
@@ -94,12 +94,12 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "trap_060_bouncy#1"
                         },
                         {
                             "key": "skill",
-                            "value": 1,
+                            "value": 1.0,
                             "valueStr": null
                         }
                     ]
@@ -108,7 +108,7 @@
         },
         {
             "id": "tree_branch_2_2",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "解锁圣徒之手·清理模式：圣徒之手碰撞到高台时会反弹，被重复命中的敌人会延长晕眩时间",
             "runes": [
@@ -125,12 +125,12 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "trap_060_bouncy#1"
                         },
                         {
                             "key": "skill",
-                            "value": 2,
+                            "value": 2.0,
                             "valueStr": null
                         }
                     ]
@@ -139,7 +139,7 @@
         },
         {
             "id": "tree_branch_3_1",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "我方单位的阻挡数+1",
             "runes": [
@@ -156,7 +156,7 @@
                     "blackboard": [
                         {
                             "key": "value",
-                            "value": 1,
+                            "value": 1.0,
                             "valueStr": null
                         }
                     ]
@@ -165,7 +165,7 @@
         },
         {
             "id": "tree_branch_3_2",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "敌方受到的晕眩/寒冷/冻结时间延长",
             "runes": [
@@ -182,7 +182,7 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "enemy_status_resistance_reduction"
                         },
                         {
@@ -196,7 +196,7 @@
         },
         {
             "id": "tree_branch_4_1",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "溟痕的蔓延速度降低",
             "runes": [
@@ -213,17 +213,17 @@
                     "blackboard": [
                         {
                             "key": "trap_061_creep#1",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": null
                         },
                         {
                             "key": "trap_061_creep#2",
-                            "value": 1,
+                            "value": 1.0,
                             "valueStr": null
                         },
                         {
                             "key": "trap_061_creep#3",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": null
                         }
                     ]
@@ -232,7 +232,7 @@
         },
         {
             "id": "tree_branch_4_2",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "溟痕对我方干员造成的法术伤害与神经损伤降低",
             "runes": [
@@ -249,17 +249,17 @@
                     "blackboard": [
                         {
                             "key": "trap_061_creep#1",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": null
                         },
                         {
                             "key": "trap_061_creep#2",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": null
                         },
                         {
                             "key": "trap_061_creep#3",
-                            "value": 1,
+                            "value": 1.0,
                             "valueStr": null
                         }
                     ]
@@ -268,7 +268,7 @@
         },
         {
             "id": "tree_branch_5_1",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "首次部署时，近战干员的攻击力提升40%",
             "runes": [
@@ -285,7 +285,7 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "attr_up_after_first_deploy"
                         },
                         {
@@ -299,7 +299,7 @@
         },
         {
             "id": "tree_branch_5_2",
-            "points": 1,
+            "points": 1.0,
             "mutexGroupKey": null,
             "description": "首次部署时，远程干员的攻击速度提升50%",
             "runes": [
@@ -316,7 +316,7 @@
                     "blackboard": [
                         {
                             "key": "key",
-                            "value": 0,
+                            "value": 0.0,
                             "valueStr": "attr_up_after_first_deploy"
                         },
                         {
